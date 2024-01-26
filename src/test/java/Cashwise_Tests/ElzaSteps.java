@@ -91,7 +91,8 @@ public class ElzaSteps {
         elzaNewAdmin.reportsPage.click();
     }
     @Then("user choose invoices from Reports page")
-    public void user_choose_invoices_from_reports_page() {
+    public void user_choose_invoices_from_reports_page() throws InterruptedException {
+        Thread.sleep(2000);
         elzaNewAdmin.invoicesPanButton.click();
     }
     @Then("user clicks on income category")

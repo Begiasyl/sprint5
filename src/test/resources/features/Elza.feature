@@ -2,6 +2,7 @@ Feature: verify that user should not be able to create a new account
 with incorrect credentials
 
 
+
   Scenario Outline: verify LogIn functionality
     Given user go on "https://cashwise.us/main"
     When user clicks on SignIn button
